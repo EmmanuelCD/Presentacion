@@ -1,0 +1,81 @@
+<header class="menu">
+        <nav class="barra" id="barra">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#main">Sobre Mí</a></li>
+              <li><a href="#habilidad">Habilidades</a></li>
+              <li><a href="#port-form">Contacto</a></li>
+            </ul>
+          </nav>
+    </header>
+    <section>
+        <div class="port-header" id="port-header">
+            <img src="./assets/react.svg" alt="foto de perfil"/>
+            <h1>Emmanuel Camacho</h1>
+            <h3>Ing. En Informática</h3>
+            <span class="correo">Correo: emmanuel.camachod@gmail.com</span>
+            <span class="tel">Telefono: 849-252-1282</span>
+            <span class="pais">Pais: Rep Dom.</span>
+        </div>
+        <div class="port-desc" id="port-desc">
+            <div class="bio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, inventore! Accusantium a nihil sed quas, nesciunt laboriosam similique autem sunt aut? Incidunt quaerat voluptates odit ratione labore esse necessitatibus ullam!</p>
+            </div>
+
+            <div class="habilidad" id="habilidad">
+                <h3 class="port-hab">Habilidades: </h3>
+            <ul>
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+                <li>Habilidad 4</li>
+                <li>Habilidad 5</li>
+                <li>Habilidad 6</li>
+            </ul>
+            </div>
+        </div>
+        <hr>
+
+        <form class="port-form" id="port-form">
+            <div>
+                <h2>Contacto:</h2>
+            </div>
+            <div class="port-form-container">
+                <div>
+                    <label for="nombre"> NOMBRE
+                         <input type="text" id="nombre" placeholder="Ingrese su nombre:"></input>
+                    </label>
+                </div>
+                <div>
+                    <label for="Correo"> CORREO
+                         <input type="text" id="correo" placeholder="Ingrese su correo electrónico:"></input>
+                    </label>
+                </div>
+                <div>
+                    <label for="asunto">ASUNTO
+                         <input type="text" id="asunto" placeholder="Asunto:"></input>
+                    </label>
+                </div>
+                <div>
+                        <label for="mensaje"> Mensaje
+                             <textarea  id="mensaje" placeholder="Ingrese su mensaje..."></textarea>
+                        </label>
+                </div>
+                <div>
+                    <button id="enviar">Enviar</button>
+                </div>
+            </div>
+           
+            </div>
+        </form>
+        <hr>
+
+    
+    <footer>
+        <div class="port-footer-container">
+            <div class="port-footer-content">
+                <span>Elaborado y Producido por Emmanuel Camacho.!</span>
+            </div>
+        </div>
+        
+    </footer>

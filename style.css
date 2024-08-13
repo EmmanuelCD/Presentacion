@@ -212,6 +212,7 @@ footer {
   }
 
   .inicio-port-content {
+    padding: 9em;
       flex-direction: column;
   }
 

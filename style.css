@@ -15,9 +15,10 @@ header {
 }
 
 .barra {
+  float:left;
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
+  
 }
 
 li {
@@ -55,10 +57,14 @@ textarea {
 /* Sección de inicio */
 section.inicio-port {
   padding-top: 4em;
-  background-color: #0088ff;
+ 
+  /*background-color: #0074D9;*/
+  background-color: #0047AB;
+  /*background-color: #001f3f;*/
+  /*background-color: #0088ff;*/
   color: white;
   text-align: center;
-  padding-bottom: 8em;
+  padding-bottom: 9em;
 }
 
 .inicio-port-content {
@@ -66,7 +72,7 @@ section.inicio-port {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4em;
+  padding: 9em;
 }
 
 .inicio-port-img img {
@@ -74,7 +80,8 @@ section.inicio-port {
   width: 200px;
   height: 200px;
 }
-.inicio-port-bio, .inicio-port-name {
+
+.inicio-port-name {
   font-size: 1.5em;
   padding: 1em;
 }
@@ -119,7 +126,8 @@ section.inicio-port {
 /* Contacto */
 .contacto {
   padding: 2em;
-  background-color: #0088ff;
+  background-color: #0047AB;
+  /*background-color: #0088ff;*/
   color: white;
   display: flex;
   justify-content: center;

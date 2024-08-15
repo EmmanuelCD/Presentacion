@@ -40,8 +40,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (errores.length > 0) {
             alert(errores.join('\n'));
         } else {
+            // enviamos 
           alert(`Gracias por contactarme ${nombre}. Te responderé a la mayor brevedad posible`)
-             // Enviar el formulario si todo está bien
+            
         }
     });
   
